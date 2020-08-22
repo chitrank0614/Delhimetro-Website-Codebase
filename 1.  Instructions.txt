@@ -1,0 +1,17 @@
+
+Use exact names and table structure as shown in images, otherwise the database will fail.
+
+1. Open your phpmyadmin and go to the database section. create a database with the name "delhimetro". 
+refer the image given in database folder.
+
+2. when done with 1, open each folder in side Database folder and the image inside the folder one by one. 
+import these csv file in your database by the exact name the folder has. Table name should be the same as the folder. if not, please rename.
+A table will be created with each import, change the table headers using the edit option in the phpmyadmin portal. 
+Change the names according to the image provided. Order of columns will be the same as that shown in the image, so please pay attention while renaming the columns. 
+Use exact names and datatype as shown.
+
+3. Once the above process is done for all the folders, copy the data in the folder 3 in the htdocs folder in xampp.
+initiate the xampp server. run apache and mysql server. 
+open http://localhost/mainpage2.php
+
+if error happens, then the fault is yours. The code works on my machine...
